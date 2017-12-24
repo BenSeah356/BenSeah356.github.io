@@ -130,8 +130,13 @@ body {
         font-size: 1.25em;
         padding: 12px 0; } }
 
+img #headerLogo{
+  height: 110px;
+  width: 170px;
+}
+
 header.masthead {
-  height: 1200px;
+  height: 950px;
   text-align: center;
   color: white;
   background-image: url("../img/Cover.jpg");
