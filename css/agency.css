@@ -131,6 +131,7 @@ body {
         padding: 12px 0; } }
 
 header.masthead {
+  height: 1200px;
   text-align: center;
   color: white;
   background-image: url("../img/Cover.jpg");
