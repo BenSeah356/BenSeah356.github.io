@@ -106,9 +106,8 @@ body {
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #003e80; }
 /* Added by PJ */
+/* Start menu */
 #new_here {
-    right: 0;
-    padding: 13px;
     text-transform: uppercase;
     color: #2e7b2c;
     border: 0;
@@ -124,10 +123,6 @@ body {
 #new_here .dropdown-menu li a:hover {
     color:#003e80;
     text-decoration: none; }
-
-.dropdown-menu {
-  width: 250px;
-}
 
 .dropdown-menu .sub-menu {
   left: 100%;
@@ -169,6 +164,17 @@ body {
   top: 11px;
   left: -6px;
 }
+
+#fb-menu {
+  text-align: center;
+}
+/* End menu */
+
+/* Start Image Adjustments */
+#expect img {
+  padding: 25px;
+}
+/* End Image Adjustments */
 /* End PJ */
 
 @media (min-width: 992px) {
@@ -410,7 +416,7 @@ header.masthead {
       color: white;
       border: 7px solid #e9ecef;
       border-radius: 100%;
-      background-color: #fed136; }
+      background-color: #003e80; }
       .timeline > li .timeline-image h4 {
         font-size: 10px;
         line-height: 14px;
