@@ -9,14 +9,17 @@ body {
 
 p {
   line-height: 1.75; }
-
+/* Logo colors
+Blue: #003e80
+Green: #2e7b2c
+*/
 a {
   color: #2e7b2c; }
   a:hover {
     color: #003e80; }
 
 .text-primary {
-  color: #fed136 !important; }
+  color: #003e80 !important; }
 
 h1,
 h2,
