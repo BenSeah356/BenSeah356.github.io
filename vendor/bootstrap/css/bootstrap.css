@@ -5798,6 +5798,8 @@ a.bg-dark:focus, a.bg-dark:hover {
 
 .rounded {
   border-radius: 0.25rem !important;
+  height: 340px;
+  width: 500px;
 }
 
 .rounded-top {
