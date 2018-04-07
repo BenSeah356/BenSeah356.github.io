@@ -263,6 +263,27 @@ header.masthead {
   margin: 15px 0;
   text-transform: none; }
 
+.service-body {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 25px; }
+
+.service-subheader {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.service-content{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: italic;
+}
+
 #ministries .ministries-item {
   right: 0;
   margin: 0 0 15px; }
@@ -594,3 +615,15 @@ ul.social-buttons {
     background-color: #212529; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #19194b; }
+
+<style>
+    ::-moz-selection { / Code for Firefox /
+     color: blue;
+     background: green;
+ }
+
+ ::selection {
+     color: blue;
+     background: green;
+ }
+    <style>
