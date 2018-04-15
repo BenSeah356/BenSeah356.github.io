@@ -219,7 +219,7 @@ body {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #464a4e; }
+    background-color: rgba(255, 255, 255, 0); /*#464a4e*/; }
     #mainNav .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
