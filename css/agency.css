@@ -198,6 +198,13 @@ body {
 }
 /* End menu */
 
+/* Start Watch Button */
+#watch {
+  background-color: #2e7b2c;
+  border-color: #2e7b2c;
+}
+/* End Watch */
+
 /* Start Image Adjustments */
 #expect img {
   padding: 25px;
