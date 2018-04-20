@@ -216,6 +216,12 @@ body {
   width: 100%;
 }
 /* End Misionaries */
+
+/* Start Carousel (demo) */
+#demo img {
+  max-height: 500px;
+}
+/* End Carousel */
 /* End PJ */
 
 @media (min-width: 992px) {
@@ -250,7 +256,7 @@ header.masthead {
   height: 950px;
   text-align: center;
   color: white;
-  background-image: url("../img/Cover.jpg");
+  background-image: url("../img/church2.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
