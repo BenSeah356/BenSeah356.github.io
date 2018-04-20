@@ -7,21 +7,21 @@ Primary style
   box-sizing: border-box;
 }
 
-html {
+section.cd-horizontal-timeline {
   font-size: 62.5%;
 }
 
-body {
+div.events-content {
   font-size: 1.6rem;
   font-family: "Fira Sans", sans-serif;
   color: #383838;
   background-color: #f8f8f8;
 }
 
-a {
+/*a {
   color: #7b9d6f;
   text-decoration: none;
-}
+}*/
 
 /* --------------------------------
 
@@ -164,7 +164,7 @@ Main Components
 }
 @media only screen and (min-width: 1100px) {
   .cd-horizontal-timeline {
-    margin: 6em auto;
+    margin: 2.5em auto;
   }
   .cd-horizontal-timeline::before {
     /* never visible - this is used in jQuery to check the current MQ */
@@ -309,7 +309,7 @@ Main Components
   margin: 10px auto;
 }
 .cd-horizontal-timeline .events-content em::before {
-  content: '- ';
+  content: '\2022   ';
 }
 .cd-horizontal-timeline .events-content p {
   font-size: 1.4rem;
@@ -320,13 +320,13 @@ Main Components
 }
 @media only screen and (min-width: 768px) {
   .cd-horizontal-timeline .events-content h2 {
-    font-size: 7rem;
+    font-size: 3rem;
   }
   .cd-horizontal-timeline .events-content em {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .cd-horizontal-timeline .events-content p {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 }
 
