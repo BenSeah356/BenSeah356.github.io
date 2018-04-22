@@ -222,6 +222,19 @@ body {
   max-height: 500px;
 }
 /* End Carousel */
+
+/* Start Beliefs */
+ul.timeline p {
+  line-height: 1.25;
+  text-align: justify;
+}
+/* End Beliefs */
+
+/* Start Footer */
+#icon {
+  height: 40px;
+}
+/* End Footer */
 /* End PJ */
 
 @media (min-width: 992px) {
@@ -256,7 +269,7 @@ header.masthead {
   height: 950px;
   text-align: center;
   color: white;
-  background-image: url("../img/church2.jpg");
+  background-image: url("../img/church2_mod.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -461,7 +474,7 @@ header.masthead {
       position: relative;
       float: right;
       width: 100%;
-      padding: 0 20px 0 50px;
+      padding: 0 20px 0 100px;
       text-align: left; }
       .timeline > li .timeline-panel:before {
         right: auto;
